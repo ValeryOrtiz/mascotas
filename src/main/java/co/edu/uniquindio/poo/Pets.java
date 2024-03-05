@@ -12,16 +12,4 @@ public record Pets(String name, Species species, Race race, byte age, Gender gen
     assert weight>0:"El peso debe ser mayor a cero";
     }
     
-    @Override
-    public String toString(){
-        return "Mascota"+"\n"+
-                "{Nombre="+name+"\n"+
-                "Especie="+species+"\n"+
-                "Raza="+race+"\n"+
-                "Genero="+gender+"\n"+
-                "Edad="+age+"\n"+
-                "Color="+colour+"\n"+
-                "Peso="+weight+
-                '}';
-    }
 }
